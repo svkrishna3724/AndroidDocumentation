@@ -26,7 +26,13 @@
 
 ## Methods of Google map  
 
-**Google map API provides several methods that help to customize Google map.**
+**Google map API provides several methods that help to customize Google map.These methods are as following:**
 
 ![androidfile](images/fig1.JPG)
+
+## Example of Google Map
+
+<p>Let's create an example of Google map integrating within our app. For doing this we select Google Maps Activity.</p>
+
+![androidfile](images/fig2.JPG)
 
