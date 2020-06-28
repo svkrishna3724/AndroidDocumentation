@@ -22,5 +22,11 @@
 
 **googleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);** 
 
-**googleMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);**  
-<!-- ![androidfile](images/fdpj21.JPG) -->
+**googleMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);** 
+
+## Methods of Google map  
+
+**Google map API provides several methods that help to customize Google map.**
+
+![androidfile](images/fig1.JPG)
+
