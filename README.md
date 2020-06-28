@@ -36,3 +36,52 @@
 
 ![androidfile](images/fig2.JPG)
 
+#### Copy the URL from google_map_api.xml file to generate Google map key.
+
+![androidfile](images/fig3.JPG)
+
+###### Paste the copied URL at the browser. It will open the following page.
+
+![androidfile](images/fig4.JPG)
+
+![androidfile](images/fig5.JPG)
+
+#### After clicking on Create API key, it will generate our API key displaying the following screen.
+
+![androidfile](images/fig6.JPG)
+
+#### Copy this generated API key in our google_map_api.xml file
+
+![androidfile](images/fig7.JPG)
+
+## activity_maps.xml
+
+**<fragment xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:map="http://schemas.android.com/apk/res-auto"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:id="@+id/map"  
+    android:name="com.google.android.gms.maps.SupportMapFragment"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    tools:context="example.com.mapexample.MapsActivity" />**
+
+### MapsActivity.java
+
+<p>To get the GoogleMap object in our MapsActivity.java class we need to implement the OnMapReadyCallback interface and override the onMapReady() callback method.</p>
+
+### Required Permission
+
+<p>Add the following user-permission in AndroidManifest.xml file.</p>
+
+**The ACCESS_COARSE/FINE_LOCATION permissions are not required to use  
+         Google Maps Android API v2, but you must specify either coarse or fine  
+         location permissions for the 'MyLocation' functionality.**
+
+**<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />  
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
+<uses-permission android:name="android.permission.INTERNET" />**  
+
+#### build.gradel:
+<p>Add the following dependencies in build.gradel file.</p>
+
+![androidfile](images/fig8.JPG)
