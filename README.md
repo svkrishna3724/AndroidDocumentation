@@ -1,5 +1,6 @@
 # AndroidDocumentation
 <P>Android provides facility to integrate Google map in our application. Google map displays your current location, navigate location direction, search location etc. We can also customize Google map according to our requirement.</P>
+
 ## Types of Google Maps
 <p> There are four different types of Google maps, as well as an optional to no map at all. Each of them gives different view on map. These maps are as follow:</p>
 
