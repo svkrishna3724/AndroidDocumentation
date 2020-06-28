@@ -13,4 +13,14 @@
 4.**Terrain:**  This type displays photographic data. This includes colors, contour lines and labels and perspective shading.
 
 5.**None:**  This type displays an empty grid with no tiles loaded.
+
+## Syntax of different types of map
+
+**googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);**
+
+**googleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);**
+
+**googleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);** 
+
+**googleMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);**  
 <!-- ![androidfile](images/fdpj21.JPG) -->
