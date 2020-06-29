@@ -85,3 +85,9 @@
 <p>Add the following dependencies in build.gradle file.</p>
 
 ![androidfile](images/fig8.JPG)
+
+#### Output:
+
+![androidfile](images/fig9.JPG)
+
+
